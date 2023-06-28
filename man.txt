@@ -1,0 +1,1000 @@
+   60  cd html
+   61  ls
+   62  cd /docker
+   63  ls
+   64  cd nginx-php8-fpm/
+   65  ls
+   66  nano Dockerfile 
+   67  ls
+   68  nano Dockerfile 
+   69  ls
+   70  docker image ls
+   71  docker build -t dohkm .
+   72  docker image ls
+   73  docker ps
+   74  ip a
+   75  docker ps
+   76  docker logs 31
+   77  docker logs 65
+   78  docker ps
+   79  docker run -d -p 99:80 -v /var/www/html:/var/www/html  tangramor/nginx-php8-fpm
+   80  docker ps
+   81  clear
+   82  docker ps
+   83  cd /var/www/html
+   84  ls
+   85  pwd
+   86  ls
+   87  cd html
+   88  ls
+   89  docker exec -it 42 /bin/sh
+   90  docker
+   91  docker ps
+   92  docker logs 31
+   93  docker ps
+   94  docker exec -it 31
+   95  docker exec -it 31 /bin/sh
+   96  docker ps
+   97  docker logs 31
+   98  docker logs 65
+   99  docker logs 42
+  100  docker
+  101  docker ps
+  102  docker stop 31
+  103  docker rm 31
+  104  docker run -d -p80:80 nginx
+  105  docker ps
+  106  docker stop 42c
+  107  docker stop 658
+  108  docker rm 658
+  109  docker rm 42c
+  110  docker ps
+  111  docker stop d1
+  112  docker rm d1
+  113  docker ps
+  114  docker logs db
+  115  cd /etc
+  116  ls
+  117  nano localhost
+  118  cd /
+  119  find ./ -name localhost
+  120  nano /etc/host
+  121  nano /etc/hosts
+  122  apt install net-tools
+  123  clear
+  124  cat /etc/resolv.conf
+  125  ls
+  126  nano /etc/hosts
+  127  ip -a
+  128  ip a
+  129  reboot
+  130  cd /var/www/html/
+  131  chmod -R 777 km-web
+  132  sudo su
+  133  docker ps
+  134  docker ps -a
+  135  docker start 53
+  136  docker start db
+  137  docker ps
+  138  docker log db
+  139  docker logs db
+  140  docker run -d -p89:80 -v /var/www/html:/opt/lampp/htdocs/ tomsik68/xampp
+  141  docker ps
+  142  docker logs ca
+  143  docke rps
+  144  cd /var
+  145  ls
+  146  cd www
+  147  ls
+  148  cd html
+  149  ls
+  150  chmod 777 -R km-web/
+  151  ls
+  152  docker ps
+  153  docker stop db
+  154  docker rm db
+  155  docker ps
+  156  docker stop ca
+  157  docker rm ca
+  158  docker ps
+  159  docker logs ff
+  160  docker run -d -p 80:8080 -v /var/www/html:/var/www/html trafex/php-nginx
+  161  docker ps
+  162  docker stop ff
+  163  docker rm ff
+  164  docker run -d -p 80:8080 -v /var/www/html:/var/www/html trafex/php-nginx
+  165  docker ps
+  166  docker logs 89
+  167  docker ps
+  168  docker exec -it 89 /bin/sh
+  169  ls
+  170  docker ps
+  171  docker stop 89
+  172  docker rm 89
+  173  docker ps
+  174  docker logs d5
+  175  ls
+  176  docker ps
+  177  docker exec -it d5 /bin/sh
+  178  ls
+  179  cd ..
+  180  chmod 777 -R html
+  181  ls
+  182  cd html
+  183  ls
+  184  docker exec -it d5 /bin/sh
+  185  docker ps
+  186  ip a
+  187  ls
+  188  docker ps
+  189  clear
+  190  docker ps
+  191  ip a
+  192  docker run -d -p99:80 -v /var/www/html:/opt/lampp/htdocs/ tomsik68/xampp
+  193  docker ps
+  194  docker logs d5
+  195  docker logs f4
+  196  docker logs e8
+  197  docker ps
+  198  docker logs d5
+  199  docker exec -it f4 /bin/sh
+  200  docker exec -it e8 /bin/sh
+  201  docker ps
+  202  docker logs d5
+  203  docker logs f4
+  204  docker ps
+  205  docker exec -it f4 /bin/sh
+  206  ls
+  207  docker ps
+  208  docker exec -t e8 /bin/sh
+  209  docker ps
+  210  docker logs af
+  211  pwd
+  212  ls
+  213  pwd
+  214  ls
+  215  docker ps
+  216  docker exec -t af /bin/sh
+  217  docker exec -it af /bin/sh
+  218  docker ps
+  219  docker stop af
+  220  docker start af
+  221  docker ps
+  222  docker logs af
+  223  docker ps
+  224  docker stop af
+  225  docker rm af
+  226  docker stop e8
+  227  docker rm e8
+  228  docker ps
+  229  docker stop f4
+  230  docker rm f4
+  231  docker ps
+  232  docker stop d5
+  233  docker rm d5
+  234  docker image ls
+  235  docker ps
+  236  docker logs 9e
+  237  ls
+  238  docker ps
+  239  docker exec -it 9e /bin/sh
+  240  docker ps
+  241  docker stop 9e
+  242  docker start 9e
+  243  docker logs 9e
+  244  ls
+  245  cd km-web
+  246  ls
+  247  cd ..
+  248  chmod 777 -R doh-web
+  249  ls
+  250  chmod 777 -R km-web
+  251  ls
+  252  docker ps
+  253  docker exec -it 9e /bin/sh
+  254  docker ps
+  255  docker exec -it 9e /bin/sh
+  256  docker ps
+  257  docker stop 9e
+  258  docker start 9e
+  259  docker logs 9e
+  260  pwd
+  261  ls
+  262  top
+  263  free
+  264  pwd
+  265  docker ps
+  266  docker images
+  267  free -m
+  268  top
+  269  ls
+  270  cd /
+  271  ls
+  272  ls -h
+  273  ls -ah
+  274  ls -lah
+  275  df
+  276  cd var/www/html/
+  277  ls
+  278  cd /etc/nginx
+  279  ps
+  280  docker ps
+  281  docker node ls
+  282  docker images
+  283  history
+  284  docker images
+  285  ls
+  286  cd /
+  287  cd root
+  288  ls
+  289  cd /docker
+  290  ls
+  291  cd nginx-php8-fpm/
+  292  ls
+  293  vi Dockerfile 
+  294  ls
+  295  cd conf/
+  296  ls
+  297  vi nginx.conf 
+  298  cd ..
+  299  pwd
+  300  ls
+  301  docker images
+  302  docker ps
+  303  ls
+  304  cd ..
+  305  ls
+  306  pwd
+  307  history
+  308  top
+  309  free -m
+  310  df -h
+  311  ls
+  312  cd nginx-php8-fpm/
+  313  ls
+  314  nano Dockerfile 
+  315  docker ps
+  316  ls
+  317  nano Dockerfile 
+  318  docker images
+  319  cd /
+  320  ls
+  321  docker ps
+  322  history 
+  323  docker ps
+  324  docker exec -it bash
+  325  docker exec -it 53 bash
+  326  exit
+  327  cd /var/www/html/
+  328  ls
+  329  cd km-web
+  330  nano .env
+  331  docker ps
+  332  docker exec -it 53 /bin/sh
+  333  docker ps
+  334  docker stop 53
+  335  docker start 53
+  336  docker ps
+  337  ls
+  338  docker ps
+  339  docker stop 53
+  340  docker rm 53
+  341  docker ps
+  342  pwd
+  343  cd /
+  344  ls
+  345  mkdir mysql
+  346  ls
+  347  cd mysql
+  348  cd ..
+  349  chmod -R 755 mysql
+  350  ls
+  351  cd mysql
+  352  ls
+  353  docker ps
+  354  ls
+  355  cd data
+  356  ls
+  357  cd ..
+  358  ls
+  359  cd conf
+  360  ls
+  361  cd ..
+  362  ls
+  363  docker ps
+  364  cd /docker
+  365  ls
+  366  docker exec -it 9e /bin/sh
+  367  ls
+  368  docker ps
+  369  ls
+  370  nano nginx-php8-fpm/
+  371  cd nginx-php8-fpm/
+  372  ls
+  373  cd conf
+  374  ls
+  375  nano default
+  376  nano default.conf 
+  377  docker ps
+  378  clear
+  379  docker ps
+  380  ls
+  381  nano default
+  382  nano default.conf 
+  383  docker image ls
+  384  docker build -t dohkm:01 .
+  385  cd ..
+  386  ls
+  387  docker build -t dohkm:01 .
+  388  docker image ls
+  389  docker swarm init
+  390  docker swarm init --advertise-addr 164.115.32.147
+  391  docker node ls
+  392  docker image ls
+  393  docker service create --name dohkm --replicas 3 --mount type=bind,src=/var/www/html,dst=/var/www/html   -p 88:80 dohkm:01
+  394  docker ps
+  395  docker service ls
+  396  cd /var/www/html
+  397  ls
+  398  docker ps
+  399  docker exec -it b3 /bin/sh
+  400  docker ps
+  401  top
+  402  mem
+  403  free mem
+  404  top
+  405  docker ps
+  406  docker stop 9e
+  407  docker rm 9e
+  408  docker service create --name dohkms --replicas 3 --mount type=bind,src=/var/www/html,dst=/var/www/html   -p 80:80 dohkm:01
+  409  docker ps
+  410  docker service ls
+  411  docker service rm dohkm
+  412  docker service ls
+  413  docker ps
+  414  clear
+  415  docker ps
+  416  cd mysql
+  417  cd /mysql
+  418  ls
+  419  cd data
+  420  ls
+  421  cd kmdoh
+  422  ls
+  423  cd ..
+  424  ls
+  425  docker ps
+  426  clear
+  427  docker ps
+  428  pwd
+  429  ls
+  430  php artisan key:generate
+  431  cd /var/www/html/km-web
+  432  php artisan key:generate
+  433  cd /var/www/html/
+  434  cd km-web
+  435  php artisan key:generate
+  436  chmod -R 755 storage/
+  437  cd ...
+  438  cd ..
+  439  chmod -R 755 km-web
+  440  chmod -R 777 km-web
+  441  cd /var/www/html/
+  442  ls
+  443  cd .. 
+  444  cd /
+  445  cd /data
+  446  cd /mysql/data/
+  447  ls
+  448  docker ps
+  449  history
+  450  docker image ls
+  451  docker run -d -p 88:80 -v /var/www/html:/var/www/html  dohkm:01
+  452  docker ps
+  453  docker exec -it 7b /bin/sh
+  454  docker ps
+  455  docker stop 7b
+  456  docker start 7b
+  457  ls
+  458  docker ps
+  459  docker exec -it 7b /bin/sh
+  460  clear
+  461  ls
+  462  pwd
+  463  exit
+  464  pwd
+  465  cd /docker/
+  466  ls
+  467  cd nginx-php8-fpm/
+  468  ls
+  469  nao Dockerfile 
+  470  ls
+  471  cd conf/
+  472  ls
+  473  nano default
+  474  nano default.conf 
+  475  docker image ls
+  476  docker build -t dohkm:02 .
+  477  cd ..
+  478  docker build -t dohkm:02 .
+  479  docker image ls
+  480  docker ps
+  481  docker stop 7b
+  482  docker rm 7b
+  483  docker service ls
+  484  docker service rm dohkms
+  485  ls
+  486  docker ps
+  487  history
+  488  docker service create --name dohkm --replicas 3 --mount type=bind,src=/var/www/html,dst=/var/www/html   -p 80:80 dohkm:02
+  489  docker ps
+  490  docker exec -it f9 /bin/sh
+  491  ls
+  492  docker ps
+  493  cd docker/
+  494  ls
+  495  cd nginx-php8-fpm/
+  496  ls
+  497  vi Dockerfile 
+  498  cd /var/html
+  499  cd /usr
+  500  ls
+  501  docker node ls
+  502  docker ps
+  503  doh images
+  504  docker images
+  505  history
+  506  cd /var/html
+  507  cd /var/www/html/
+  508  ls
+  509  cd km-web
+  510  l
+  511  ls
+  512  ls -lah
+  513  vi docker-compose.yml 
+  514  ls -lah
+  515  exit
+  516  pwd
+  517  cd ..
+  518  cd /
+  519  ls
+  520  sudo su
+  521  exit
+  522  top
+  523  docker node ls
+  524  docker node list
+  525  docker service ls
+  526  exit
+  527  top
+  528  pwd
+  529  cd /var/www/html/
+  530  ls
+  531  cd km-web
+  532  ls
+  533  cd storage/
+  534  ls
+  535  cd km/
+  536  ls
+  537  top
+  538  exit
+  539  top
+  540  docker node ls
+  541  docker service ps
+  542  docker node ls
+  543  docker service list
+  544  docker ps
+  545  docker exec f9 /bin/sh
+  546  cd /etc
+  547  ls
+  548  cd nginx
+  549  ls
+  550  cd nginx
+  551  ls
+  552  cd ..
+  553  find ./ -name access.log
+  554  pwd
+  555  exit
+  556  docker ps
+  557  docker exec -it f9 /bin/sh
+  558  find ./ -name *.log
+  559  pwd
+  560  cd /
+  561  find ./ -name *.log
+  562  find ./ -name access.log
+  563  nano /var/lib/docker/overlay2/7f2e13a8557297d52a1bcadc2c76da08a8c99db5d2474f1c98d06e70f6092b7b/diff/var/log/nginx/access.log
+  564  nano /var/lib/docker/overlay2/95110c7f59b69a8367aec1bd0578ff994ee7ce2722aad38eada758772ed682cc/diff/var/log/nginx/access.log
+  565  nano /var/lib/docker/overlay2/db61328de20a259b581038701cf28c49caf01c17998d7cf5d9179c560177e6eb/merged/var/log/nginx/access.log
+  566  nano /var/lib/docker/overlay2/547bc1f19a332737d79e220a1a91c9739c14989d23f93f201ddbe526a9a72b1c/merged/var/log/nginx/access.log
+  567  ls
+  568  pwd
+  569  docker ps
+  570  docker exec -it d6 /bin/sh
+  571  ls
+  572  pwd
+  573  docker ps
+  574  docker logs f9
+  575  pwd
+  576  mkdir logs
+  577  cdlogs
+  578  cd logs
+  579  ls
+  580  docker logs f9 > 1.log
+  581  docker logs f9 
+  582  clear
+  583  ls
+  584  ls -l
+  585  nano 1.log
+  586  nano -l 1.log
+  587  docker ls
+  588  docker ps
+  589  docker logs d6 > 2.log
+  590  docker logs 29 > 3.log
+  591  ls
+  592  ls -l
+  593  nano 3.log
+  594  ls
+  595  cd ..
+  596  chmod 777 -R logs
+  597  docker ps
+  598  clear
+  599  docker ps
+  600  docker exec -it 56 /bin/sh
+  601  vmstat
+  602  nmon
+  603  exit
+  604  docker run -d -p 2015:2015 muninn/hugo-caddy
+  605  docker ps
+  606  docker logs 9d
+  607  docker run -d   -p 8080:8080   -v /var/log/munin:/var/log/munin   -v /var/lib/munin:/var/lib/munin   -v /var/run/munin:/var/run/munin   -v /var/cache/munin:/var/cache/munin   -e MUNIN_USER=admin   -e MUNIN_PASSWORD=admin   -e SMTP_HOST=127.0.0.1   -e SMTP_PORT=587   -e SMTP_USE_TLS=false   -e SMTP_ALWAYS_SEND=true   -e SMTP_MESSAGE='[${var:group};${var:host}] -> ${var:graph_title} -> warnings: ${loop<,>:wfields  ${var:label}=${var:value}} / criticals: ${loop<,>:cfields  ${var:label}=${var:value}}'   -e ALERT_RECIPIENT=monitoring@example.com   -e ALERT_SENDER=alerts@example.com   -e NODES="server1:127.0.0.1 \
+  608    -e SNMP_NODES="router1:127.0.0.1:9999" \
+  609    munin-server
+  610  docker run -d   -p 8080:8080   -v /var/log/munin:/var/log/munin   -v /var/lib/munin:/var/lib/munin   -v /var/run/munin:/var/run/munin   -v /var/cache/munin:/var/cache/munin   -e MUNIN_USER=admin   -e MUNIN_PASSWORD=admin   -e SMTP_HOST=127.0.0.1   -e SMTP_PORT=587   -e SMTP_USE_TLS=false   -e SMTP_ALWAYS_SEND=true   -e ALERT_RECIPIENT=monitoring@example.com   -e ALERT_SENDER=alerts@example.com   -e NODES="server1:127.0.0.1 \
+  611    -e SNMP_NODES="router1:127.0.0.1:9999" \
+  612    munin-server
+  613  docker run -d \
+  614    -p 8080:8080 \
+  615    -v /var/log/munin:/var/log/munin \
+  616    -v /var/lib/munin:/var/lib/munin \
+  617    -v /var/run/munin:/var/run/munin \
+  618    -v /var/cache/munin:/var/cache/munin \
+  619    -e MUNIN_USER=http-user \
+  620    -e MUNIN_PASSWORD=secret-password \
+  621    -e SMTP_HOST=smtp.example.com \
+  622    -e SMTP_PORT=587 \
+  623    -e SMTP_USERNAME=smtp-username \
+  624    -e SMTP_PASSWORD=smtp-password \
+  625    -e SMTP_USE_TLS=false \
+  626    -e SMTP_ALWAYS_SEND=true \
+  627    -e SMTP_MESSAGE='[${var:group};${var:host}] -> ${var:graph_title} -> warnings: ${loop<,>:wfields  ${var:label}=${var:value}} / criticals: ${loop<,>:cfields  ${var:label}=${var:value}}' \
+  628    -e ALERT_RECIPIENT=monitoring@example.com \
+  629    -e ALERT_SENDER=alerts@example.com \
+  630    -e NODES="server1:10.0.0.1 server2:10.0.0.2" \
+  631    -e SNMP_NODES="router1:10.0.0.254:9999" \
+  632    munin-server
+  633  cd /var/www/html/
+  634  chmod -R 777 km-web
+  635  docker ps
+  636  docker run -d -p 80 occitech/munin:latest
+  637  docker ps
+  638  clear
+  639  docker ps
+  640  docker logs 60
+  641  docker ps
+  642  docker stop 60
+  643  docker rm 60
+  644  docker run -d -p 80 -e TZ:Asia/bangkok occitech/munin:latest
+  645  docker ps
+  646  top
+  647  docker service ls
+  648  docker images
+  649  history
+  650  exit
+  651  docker ps
+  652  nslookup q-mx doh.go.th
+  653  host q-mx
+  654  host doh.go.th
+  655  hosts doh.go.th
+  656  host
+  657  host www.doh.go.th
+  658  docker ps
+  659  top
+  660  host doh.go.th
+  661  top
+  662  host doh.go.th
+  663  top
+  664  memfree
+  665  freemem
+  666  free
+  667  free -k
+  668  top
+  669  htop
+  670  docker ps
+  671  docker exec -it 56 /bin/sh
+  672  host doh.go.th
+  673  docker ps
+  674  docker exec -it 56 /bin/sh
+  675  htop
+  676  cd /var/www/html/
+  677  chmod -R 777 km-web
+  678  cd /var/www/html/
+  679  chmod -R 777 km-web
+  680  dockerps
+  681  docker ps
+  682  clear
+  683  docker ps
+  684  docker exec -it 56 /bin/sh
+  685  find ./ -name mail
+  686  pwd
+  687  cd ..
+  688  find ./ -name mail
+  689  pwd
+  690  cd ..
+  691  ls
+  692  find ./ -name *.og
+  693  pwd
+  694  find ./ -name *.log
+  695  กนแาำพ ยห
+  696  สห
+  697  ls
+  698  docker ps
+  699  clear
+  700  docker ps
+  701  docker exec -it 56 /bin/sh
+  702  docker ps
+  703  docker stop 56
+  704  docker start 56
+  705  docker ps
+  706  pwd
+  707  docker ps
+  708  docker exec -it 56 /bin/sh
+  709  htop
+  710  history
+  711  cd /var/www/html/
+  712  chmod -R 777 km-web
+  713  htop
+  714  htop
+  715  docker ps
+  716  docker exec -it 56 /bin/sh
+  717  htop
+  718  docker ps
+  719  docker exec -it 56 /bin/sh
+  720  cd /var/www/html/
+  721  chmod -R 777 km-web
+  722  cd /var/www/html/
+  723  chmod -R 777 km-web
+  724  history
+  725  docker
+  726  docker ps
+  727  cd /var/www/html/
+  728  chmod -R 777 km-web
+  729  cd /var/www/html/
+  730  chmod -R 777 km-web
+  731  history
+  732  cd km-web
+  733  php artisan key:generate
+  734  cd /var/www/html/
+  735  chmod -R 777 km-web
+  736  cd /var/www/html/km-web/
+  737  chmod -R 777 storage/
+  738  composer
+  739  pwd
+  740  cd ..
+  741  cd var/www/html
+  742  cd km-web
+  743  composer install
+  744  cd var/www/html
+  745  cd /var/www/html
+  746  cd km-web
+  747  chmod -R 777 storage/
+  748  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  749  cd /var/www/html/km-web/
+  750  chmod -R 777 storage/
+  751  cd ..
+  752  cd..
+  753  cd ..
+  754  docker ps
+  755  docker ps -a
+  756  history
+  757  docker start 56
+  758  docker ps
+  759  composer install
+  760  apt install composer
+  761  cd /var/www/html
+  762  php artisan key:generate
+  763  cd km-web/
+  764  php artisan key:generate
+  765  history
+  766  docker ps -a
+  767  docker ps 
+  768  history
+  769  cd /var/www/html/km-web/
+  770  php artisan key:generate
+  771  pwd
+  772  cd var/www/html/km-web
+  773  cd var\www
+  774  cd var
+  775  cd /var
+  776  cd /www/html/km-web
+  777  cd www
+  778  cd html/km-web
+  779  php artisan migrate:fresh --seed
+  780  php artisan migrate
+  781  composer install
+  782  cd /var/www/html/km-web/
+  783  php artisan key:generate
+  784  composer install
+  785  php artisan migrate
+  786  pwd
+  787  cd /var/www/html/km-web
+  788  php artisan --version
+  789  php artisan migrate:refresh --seed
+  790  npm install
+  791  composer install
+  792  php --ini
+  793  composer install
+  794  composer update
+  795  cd /var/www/html/km-web
+  796  sudo apt-get update
+  797  php artisan migrate
+  798  sudo apt-get install php-mysql
+  799  php artisan migrate
+  800  history
+  801  docker ps
+  802  history
+  803  top
+  804  free
+  805  fdisk -h
+  806  df -h
+  807  docker ps
+  808  docker exec -it /048
+  809  docker exec -it /048 /bin/sh
+  810  docker ps
+  811  docker exec -it 563 /bin/sh
+  812  info
+  813  lscpu
+  814  top
+  815  docker ps
+  816  history
+  817  cd /var/www/html/km-web
+  818  php artisan migrate
+  819  php artisan migrate:fresh --seed
+  820  docker ps
+  821  history
+  822  docker exec -it /048 /bin/sh
+  823  docker ps
+  824  docker exec -it /048 /bin/sh
+  825  docker ps
+  826  pwd
+  827  cd /var
+  828  cd /www/html
+  829  cd /www
+  830  pwd
+  831  cd www
+  832  cd html
+  833  cd km-web
+  834  composer require mews/captcha
+  835  cd /var/www/html/km-web
+  836  composer version
+  837  composer install
+  838  php artisan --version
+  839  composer require mews/captcha
+  840  php --ini
+  841  composer require mews/captcha
+  842  php --ini
+  843  composer require mews/captcha
+  844  composer
+  845  cd ../../..
+  846  cd ..
+  847  cd /temp
+  848  cd /tmp
+  849  composer
+  850  cd ..
+  851  cd /var/www/html/km-web
+  852  composer require mews/captcha
+  853  sudo apt-get install php7.4-xml
+  854  composer require mews/captcha
+  855  composer install
+  856  sudo apt-get install php7.4-curl
+  857  composer install
+  858  composer require mews/captcha
+  859  composer update
+  860  composer require mews/captcha
+  861  composer update
+  862  composer install
+  863  composer require mews/captcha
+  864  php -v
+  865  composer install
+  866  php -v
+  867  composer require mews/captcha
+  868  composer install
+  869  composer require mews/captcha
+  870  cd /var/www/html/km-web
+  871  composer require mews/captcha
+  872  sudo apt-get install php7.4-gd
+  873  composer require mews/captcha
+  874  cd /var/www/html/km-web
+  875  composer require mews/captcha
+  876  Do not run Composer as root/super user! See https://getcomposer.org/root for details
+  877  Warning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/
+  878  cd /var/www/html/km-web
+  879  composer require mews/captcha
+  880  composer fund
+  881  php composer.phar
+  882  composer.phar
+  883  cd ..
+  884  composer --version
+  885  composer
+  886  composer update
+  887  cd km-web
+  888  composer require mews/captcha
+  889  composer fund
+  890  composer update mews/captcha
+  891  php artisan vendor:publish --tag=laravel-assets --ansi --force
+  892  php artisan vendor:publish
+  893  composer require mews/captcha
+  894  history
+  895  docker ps
+  896  docker exec -it /048 /bin/sh
+  897  ls
+  898  docker
+  899  docker ps
+  900  docker ps -a
+  901  docker start 563
+  902  docker ps
+  903  cd /
+  904  find ./ -name conf*.json
+  905  docker ps
+  906  history
+  907  ls
+  908  history > hi.txt
+  909  ls
+  910  nano hi.txt
+  911  docker image ls
+  912  docker ps
+  913  docker login
+  914  docker ps
+  915  docker image ls
+  916  docker tag dohkm:02 itsared/dohkm:02
+  917  docker push itsared/dohkm:02
+  918  pwd
+  919  cd home
+  920  cd /home
+  921  ls
+  922  ip a
+  923  ls
+  924  history > man.txt
+  925  nano man.txt
+  926  cd /var
+  927  cd www
+  928  cd html
+  929  ls
+  930  nano index.php 
+  931  ls
+  932  chmod -R 777 km-web
+  933  ls
+  934  docker ps
+  935  ls
+  936  apt install zip unzip
+  937  cd /var/www/html
+  938  ls
+  939  zip -r km.zip km-web
+  940  ls
+  941  ls -l
+  942  ls -k -l
+  943  cd /var/www/html
+  944  ls
+  945  cd /root
+  946  ls
+  947  nano hi.txt
+  948  docker  ps
+  949  ls
+  950  cat hi.txt
+  951  pwd
+  952  ls
+  953  ip a
+  954  docker ps
+  955  free
+  956  docker ps
+  957  docker ps -a
+  958  history
+  959  docker ps -a
+  960  docker stop 563
+  961  docker start 563
+  962  docker ps -a
+  963  history
+  964  docker ps
+  965  pwd
+  966  history > man.txt
+  967  nano man.txt
+  968  ls
+  969  cd ..
+  970  cd docker/
+  971  ls
+  972  cd nginx-php8-fpm/
+  973  ls
+  974  nano build.sh 
+  975  cd conf
+  976  ls
+  977  cd ..
+  978  ls
+  979  nano start.sh 
+  980  ls
+  981  clear
+  982  ls
+  983  docker image ls
+  984  cd /root/
+  985  ls
+  986  docker ps -l
+  987  ls
+  988  docker ps
+  989  docker service ls
+  990  pwd
+  991  nano man.txt 
+  992  docker ps
+  993  nano man.txt 
+  994  cd docker
+  995  ls
+  996  cd /docker
+  997  ls
+  998  cd nginx-php8-fpm/
+  999  ls
+ 1000  nano Dockerfile 
+ 1001  cd /root
+ 1002  nano man.txt
+ 1003  ls
+ 1004  cd /docker/
+ 1005  ls
+ 1006  cd nginx-php8-fpm/
+ 1007  ls
+ 1008  nano Dockerfile 
+ 1009  pwd
+ 1010  ls
+ 1011  nano man.txt
+ 1012  cd /docker/
+ 1013  ls
+ 1014  cd nginx-php8-fpm/
+ 1015  ls
+ 1016  cd conf
+ 1017  ls
+ 1018  nano default.conf 
+ 1019  ls
+ 1020  cd ..
+ 1021  ls
+ 1022  nano Dockerfile 
+ 1023  docker image ls
+ 1024  ls
+ 1025  nano Dockerfile 
+ 1026  ls
+ 1027  nano start.sh 
+ 1028  ls
+ 1029  nano build.sh 
+ 1030  ls
+ 1031  cd conf
+ 1032  ls
+ 1033  nano nginx.conf
+ 1034  nsno supervisord.conf 
+ 1035  nano supervisord.conf 
+ 1036  ls
+ 1037  docker ps
+ 1038  ls
+ 1039  cd ..
+ 1040  ls
+ 1041  nano Dockerfile 
+ 1042  docker build -t test .
+ 1043  docker image ls
+ 1044  ls
+ 1045  nano Dockerfile 
+ 1046  exit
+ 1047  docker ;s
+ 1048  pwd
+ 1049  ls
+ 1050  cd ..
+ 1051  ls
+ 1052  cd docker
+ 1053  ls
+ 1054  cd nginx-php8-fpm/
+ 1055  ls
+ 1056  docker image ls
+ 1057  history 
+ 1058  ls
+ 1059  history  > man.txt
